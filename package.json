@@ -1,9 +1,32 @@
 {
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/mu-lib/mu-data.git"
-	},
-	"devDependencies": {
-		"buster-amd": "~0.3"
-	}
+  "version": "0.0.1",
+  "name": "mu-data",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mu-lib/mu-data.git"
+  },
+  "devDependencies": {
+    "buster-amd": "~0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/mu-lib/mu-data/issues"
+  },
+  "homepage": "https://github.com/mu-lib/mu-data",
+  "description": "an object graph query and cache implementation",
+  "main": "query/factory.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "buster-amd": "^0.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "query",
+    "cache"
+  ],
+  "author": "",
+  "license": "MIT"
 }
